@@ -5,7 +5,8 @@ import moment from 'moment'
 class App extends React.Component {
 
   state = {
-    endpoint: 'http://wheaterbeanstalk-env-1.us-east-1.elasticbeanstalk.com',
+    // endpoint: 'http://wheaterbeanstalk-env-1.us-east-1.elasticbeanstalk.com',
+    endpoint: 'https://murmuring-earth-16082.herokuapp.com/',
     // endpoint: 'http://localhost',
     ts: moment().format('LTS'),
     data: {}
